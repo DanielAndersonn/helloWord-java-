@@ -31,8 +31,9 @@ public class student {
 
   }
 
-  public void updateFeesPaid(int fees){
+  public void payFees(int fees){
       feesPaid+=fees;
+      school.updateTptalMoney();
 
 
   }
@@ -52,6 +53,13 @@ public int getsalary(){
 public int getFeesTotal(){
 
     return feesTotal
+}
+public int getRemaingFees(){
+     return feesTotal-feesPaid
+}
+@Override
+public String toString(){
+    return "Stundent'name:"+ name + " total fees paidso far "+ feesPaid
 }
 
 }
