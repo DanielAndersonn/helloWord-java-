@@ -3,4 +3,4 @@ this repository is for my lapidate my skill in java. I know still this my first 
 
 () SCHOOL MANEGMENT
 
-the challege this projecte is create school manager project must contain the following situations (id , techers, slary ande students) i make update next week 
+the challege this projecte is create school manegment project must contain the following situations (id , techers, slary ande students) i make update next week 
